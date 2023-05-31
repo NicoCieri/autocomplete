@@ -2,6 +2,10 @@
 
 A small React app with an autocomplete field for searching Github Repositories.
 
+### Live Preview
+
+To see a live preview of the application, you can access the following link: [Live Preview](https://autocomplete-cieri.netlify.app/)
+
 ## Getting Started
 
 ### Prerequisites
