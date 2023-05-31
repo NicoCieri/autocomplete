@@ -62,7 +62,7 @@ This will execute the test cases and provide the test results.
 You can also run the tests in watch mode:
 
 ```bash
-test:watch
+yarn test:watch
 ```
 
 ### Additional Scripts
