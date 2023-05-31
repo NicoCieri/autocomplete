@@ -13,12 +13,12 @@ export const replaceSpaces = (text: string) => text.replace(/^\s+|\s+$/g, '').re
 export const getItemsWithText = (items: RepositoryItem[], text: string) =>
   items.filter(
     (item) =>
-      item.full_name?.toLowerCase().includes(text) ||
+      item.full_name.toLowerCase().includes(text) ||
       (item.description || '').toLowerCase().includes(text)
   )
 
 export const filterItemsWithText = (text: string) => (item: RepositoryItem) =>
-  item.full_name?.toLowerCase().includes(text) ||
+  item.full_name.toLowerCase().includes(text) ||
   (item.description || '').toLowerCase().includes(text)
 
 export const mapItemToSuggestion = (item: RepositoryItem): Suggestion => ({
