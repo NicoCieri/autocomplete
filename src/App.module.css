@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.title {
+  color: #000;
+  text-align: left;
+  text-shadow: .25rem .25rem 0px #fff;
+  font-size: 4rem;
+  line-height: 4rem;
+}

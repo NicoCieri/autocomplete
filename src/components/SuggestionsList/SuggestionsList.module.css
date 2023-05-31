@@ -1,0 +1,15 @@
+.suggestionsList {
+  width: 100%;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  overflow: hidden;
+  border: none;
+  border-radius: 0;
+  box-shadow: .5rem .5rem 0px black, 1rem 1rem 0px #03bddf;
+  z-index: 1;
+}
